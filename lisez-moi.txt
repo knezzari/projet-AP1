@@ -1,8 +1,23 @@
-Lisez moine
+Commandes :
 
+while (tu fais tes modifs) {
+	git add .
+	commit -m "descriptif des modifs"
+}
 
-modif de knezzari
+git pull
 
-essai de modification parallele
+if("rejected") {
+	tu fusionne le code que ta télécharger avec le code en local
+	commit -m "fusion du code"
+} else if("auto merged") {
+	rien de spécial	
+}
 
-encore une modif chiante
+git push
+-----------------------------------
+
+Autre commandes utiles :
+git status 
+git log (pour voir l'historique des modifs)
+git diff (pour voir les modif sur un fichier)
