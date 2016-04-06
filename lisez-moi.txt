@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 sdùlqjglmfdsjgldfsgsfd
 hfgd
 h
@@ -19,3 +20,13 @@ hl
 hjk
 lhk
 j
+=======
+Lisez moine
+
+
+modif de knezzari
+
+essai de modification parallele
+
+encore une modif chiante
+>>>>>>> 0863e8fc070c25b7c311739e802a43020f8e5f59
