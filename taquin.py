@@ -2,7 +2,9 @@
 #Projet rendu 1
 #Lundi 21 Mars 2016
 
-#COMMANDES={'H': haut(), 'B': bas() , 'G':gauche() , 'D':droite()}
+
+
+#COMMANDES={'H': haut(), 'B': bas() , 'G':gauche() , 'D':droite(), 'A' : abandonner()}
 def cree_taquin (n=4):
     """
     
@@ -31,8 +33,17 @@ def position_case_vide(taq):
       
 ##def melanger_taquin(taq):
 ##
+    
+
+
+    
+##
 ##def imprimer_taquin(taq):
 ##
+
+
+
+
 def est_resolu(taq):
     """
     """
@@ -40,21 +51,28 @@ def est_resolu(taq):
     return resolu == taq
     
 ##
-##def haut():
-##    """
-##    """
-##
-##def bas():
+##def haut(taq):
 ##    """"""
-##def gauche():
-##
-##def droite():
-##
-##def echanger(taq, c1, c2):
-##
-##
-##    
+
+##def bas(taq):
+##    """"""
+
+##def gauche(taq):
+
+##def droite(taq):
+
+
+def echanger(taq, c1, c2):
+    """"""
+    taq[c1[1]][c1[0]],taq[c2[1]][c2[0]]=taq[c2[1]][c2[0]],taq[c1[1]][c1[0]]
+    
 ##def abandonner():
 ##
-##def numero_piece(taq, x, y):
-##    
+
+    
+def numero_piece(taq, x, y):
+    """"""
+    piece=taq[y][x]
+    if piece=='':
+        return (len(taq))**2
+    return piece
